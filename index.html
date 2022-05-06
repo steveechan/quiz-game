@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src ="script.js" defer></script>
+    <title>Make a Quiz</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <button id="makequiz" onclick="create()">
+            Make a quiz
+        </button>
+        <div id="createquiz">
+            How many questions  <input type="number" id="numquestions" onkeyup="begin()"> 
+            <input type="button" value="Enter a number" id="begin" disabled/>
+        </div>
+        <form id="questions">
+            Question: <input type="text" id="question"> <br>
+            Correct Answer: <input type="text" id="correctanswer"> <br>
+            Wrong Answer: <input type="text" name="wrong"> <br>
+            Wrong Answer: <input type="text" name="wrong"> <br>
+            Wrong Answer: <input type="text" name="wrong">
+            <button type="button" id="Save" onclick="save()">
+                Save
+            </button>
+    </form>
+
+    </div>
+</body>
+</html>
