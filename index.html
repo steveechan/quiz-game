@@ -27,7 +27,18 @@
                 Save
             </button>
     </form>
-
+    <button id="displayquiz" onclick="start()"> Take Quiz </button>
+    <div id="quiz">
+        <h1 id="h1question"> </h1> <br>
+        <button id="correct" onclick="checked()"> </button> <br>
+        <button id="wrong1" onclick="next()"> </button> <br>
+        <button id="wrong2" onclick="next()"> </button> <br>
+        <button id="wrong3" onclick="next()"> </button> <br>
+    </div>
+    <div id="results">
+        <h1 id="correctresults"> </h1> <br>
+        <h1 id="wrongresults"> </h1> <br>
+    </div>
     </div>
 </body>
 </html>

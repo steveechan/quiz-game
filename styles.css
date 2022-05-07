@@ -41,3 +41,16 @@
 #questions {
     display: none;
 }
+
+#quiz {
+    display: none;
+    font-size: 10px;
+}
+
+#displayquiz {
+    display: none;
+}
+
+#results {
+    display: none;
+}
